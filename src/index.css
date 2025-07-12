@@ -3,6 +3,7 @@
 /*Body*/
 body {
   font-family: Arial, Helvetica, sans-serif;
+   background-color: #eaecee;
 }
 
 
@@ -154,8 +155,8 @@ span {
 	align-content: center;
 }
 .principal_imagen {
-  filter: blur(7px); /* Ajusta el valor de 5px según la intensidad deseada */
-   width: 900px;
-     height: 800px;
+  filter: blur(2px); /* Ajusta el valor de 5px según la intensidad deseada */
+   width: 500px;
+     height: 500px;
 	
 }

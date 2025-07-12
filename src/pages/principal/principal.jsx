@@ -7,8 +7,19 @@ function Principal() {
       <Header />
       <main style={styles.mainContent}>
         <div id="principal" >
-          <img className="principal_imagen"
+
+<div class="flex justify-center items-center h-screen">
+  <div class="py-4"></div>
+  <div class="py-12">
+
+    <img className="principal_imagen"
                   src="/logo.png" alt="" />
+  </div>
+  <div class="py-8"></div>
+</div>
+
+
+
         </div>
       </main>
     </div>
