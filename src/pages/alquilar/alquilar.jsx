@@ -63,39 +63,44 @@ function Principal() {
           <thead className="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
             <tr>
               <th scope="col" className="px-6 py-3">
-                   CLAVE
+                   NOMBRE
                 </th>
                 <th scope="col" className="px-6 py-3">
-                   FECHA ALQUILER
+                   PLATAFORMA
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    CANTIDAD DE LIBROS
+                    GENERO
+                </th>
+                <th scope="col" className="px-6 py-3">
+                    STORAGE
                 </th>
                 <th scope="col" className="px-6 py-3">
                     ESTATUS
                 </th>
-                 <th scope="col" className="px-6 py-3">
-                    EXTENSIÓN  DE PLAZO
+
+                <th scope="col" className="px-6 py-3">
+                    EXTENSIÓN
                 </th>
                 <th scope="col" className="px-6 py-3">
-                    FEHCHA ENTREGA
+                    DETALLE
                 </th>
-                <th scope="col" className="px-6 py-3">
-                    <span className="sr-only"></span>
-                </th>
+                 
             </tr>
         </thead>
         <tbody>
             <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
 
               <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 LA0001
+                 Grand Theft Auto V
                 </th>
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 2025/04/01
+            PC PlayStation 5 Xbox Series S/X PlayStation 4 PlayStation 3 Xbox 360 Xbox One
                 </th>
                 <td className="px-6 py-4">
-                    1
+                    Action
+                </td>
+                 <td className="px-6 py-4">
+                    	Steam PlayStation Store Epic Games Xbox 360 Store Xbox Store
                 </td>
                 <td className="px-6 py-4">
                     ENTREGADO
@@ -103,55 +108,55 @@ function Principal() {
                  <td className="px-6 py-4">
                  0
                 </td>
-                <td className="px-6 py-4">
-                      2025/04/20
-                </td>
                 <td className="px-6 py-4 text-right">
                     <a href="/detallealquiler" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
                 </td>
             </tr>
              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 LA0002
+                 Red Dead Redemption 2
                 </th>
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 2025/05/01
+               PC PlayStation 4 Xbox One
                 </th>
                 <td className="px-6 py-4">
-                   4
+                  Action
                 </td>
                 <td className="px-6 py-4">
+                    PlayStation Store Epic Games Steam Xbox Store
+                </td>
+                 <td className="px-6 py-4">
                     ENTREGADO
                 </td>
                 <td className="px-6 py-4">
-                 0
+                1
                 </td>
-                <td className="px-6 py-4">
-                      2025/05/20
-                </td>
+           
                 <td className="px-6 py-4 text-right">
                     <a href="/detallealquiler" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
                 </td>
             </tr>
              <tr className="bg-white border-b dark:bg-gray-800 dark:border-gray-700 border-gray-200 hover:bg-gray-50 dark:hover:bg-gray-600">
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                 LA0003
+               Fallout 4
                 </th>
                 <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
                  2025/06/20
                 </th>
                 <td className="px-6 py-4">
-                    1
+                    PlayStation 4 PC PlayStation 5 Xbox One
+                </td>
+
+                <td className="px-6 py-4">
+                   Steam
                 </td>
                 <td className="px-6 py-4">
                     EN CURSO
                 </td>
                  <td className="px-6 py-4">
-                1
+               0
                 </td>
-                <td className="px-6 py-4">
-                      2025/06/25
-                </td>
+                
                 <td className="px-6 py-4 text-right">
                     <a href="/detallealquiler" className="font-medium text-blue-600 dark:text-blue-500 hover:underline">DETALLE</a>
                 </td>
