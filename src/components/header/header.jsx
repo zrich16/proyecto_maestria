@@ -7,7 +7,7 @@ const navigate = useNavigate();
 
   const logout = () => {
       Swal.fire({
-        title: "Desea Terminar Sesió",
+        title: "Desea Terminar Sesión",
         showDenyButton: true,
          confirmButtonText: "SI",
       }).then((result) => {
