@@ -14,7 +14,8 @@ import Listausuario from '../pages/usuario/listausuario';
 
 function AppRoutes() {
   return (
-    <Routes>
+     <BrowserRouter>
+       <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/principal" element={<Principal />} />
       <Route path="/about" element={<About />} />
@@ -26,6 +27,8 @@ function AppRoutes() {
         <Route path="/detalleusuario" element={<Detalleusuario />} />
           <Route path="/listausuario" element={<Listausuario />} />
     </Routes>
+     </BrowserRouter>
+  
   );
 }
 
