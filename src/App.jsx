@@ -1,12 +1,15 @@
 
 import AppRoutes from '../src/rutas/routes';
 import Login from './pages/login/login'
-
+import { BrowserRouter } from 'react-router-dom';
 
 function App() {
     return (
     <div>
-      <AppRoutes />
+        <BrowserRouter>
+         <AppRoutes />
+        </BrowserRouter>
+     
     </div>
   );
 

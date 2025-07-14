@@ -1,5 +1,5 @@
 import React from 'react';
-import {BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import Login from '../pages/login/login';
 import Principal from '../pages/principal/principal';
 import About from '../pages/about/about';
@@ -14,7 +14,7 @@ import Listausuario from '../pages/usuario/listausuario';
 
 function AppRoutes() {
   return (
-     <BrowserRouter>
+   
        <Routes>
       <Route path="/" element={<Login />} />
       <Route path="/principal" element={<Principal />} />
@@ -27,7 +27,7 @@ function AppRoutes() {
         <Route path="/detalleusuario" element={<Detalleusuario />} />
           <Route path="/listausuario" element={<Listausuario />} />
     </Routes>
-     </BrowserRouter>
+   
   
   );
 }
