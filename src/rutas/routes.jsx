@@ -6,7 +6,6 @@ import About from '../pages/about/about';
 import Alquilar from '../pages/alquilar/alquilar';
 import Buscar from '../pages/videojuegos/buscar';
 import Detalle from '../pages/videojuegos/detalle';
-import RegistrarAlquiler from '../pages/alquilar/registraralquiler';
 import DetalleAlquiler from '../pages/alquilar/detallealquiler';
 
 import Registrousuario from '../pages/usuario/registrousuario';
@@ -23,7 +22,6 @@ function AppRoutes() {
       <Route path="/buscar" element={<Buscar />} />
       <Route path="/detalle" element={<Detalle />} />
        <Route path="/detallealquiler" element={<DetalleAlquiler />} />
-      <Route path="/registraralquiler" element={<RegistrarAlquiler />} />
        <Route path="/registrousuario" element={<Registrousuario />} />
         <Route path="/detalleusuario" element={<Detalleusuario />} />
           <Route path="/listausuario" element={<Listausuario />} />

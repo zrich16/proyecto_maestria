@@ -1,6 +1,12 @@
 const API_URL = 'https://api.rawg.io/api/';
 
-
+/**
+ * @component
+ * Metodo que consulta APi de lista de videojuegos
+ * @param {*} params 
+ * @returns {lista}
+ * @author rich
+ */
 const getBuscarVideojuego = async (params = {}) => {
   try {
     const queryString = "key=a6fc390305f94608a1e3855ee846d013";
@@ -24,7 +30,14 @@ const getBuscarVideojuego = async (params = {}) => {
   }
 };
 
-const getDetallerVideojuego = async (params = {}) => {
+/**
+ * @component
+ * Metodo que consulta APi de detalle de un videijuego
+ * @param {*} params 
+ * @returns {obhect}
+ * @author rich
+ */
+const getDetalleVideojuego = async (params = {}) => {
   try {
     const queryString = "?key=a6fc390305f94608a1e3855ee846d013";
 
@@ -47,4 +60,4 @@ const getDetallerVideojuego = async (params = {}) => {
   }
 };
 
-export { getBuscarVideojuego ,getDetallerVideojuego};
+export { getBuscarVideojuego ,getDetalleVideojuego};

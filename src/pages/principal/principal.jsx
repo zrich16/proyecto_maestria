@@ -6,14 +6,13 @@ function Principal() {
     <div>
       <Header />
       <main style={styles.mainContent}>
-        <div id="principal" >
+        <div id="principal" className='login-body' >
 
 <div class="flex justify-center items-center h-screen">
   <div class="py-4"></div>
   <div class="py-12">
 
-    <img className="principal_imagen"
-                  src="/logo.png" alt="" />
+
   </div>
   <div class="py-8"></div>
 </div>
@@ -34,6 +33,7 @@ const styles = {
   mainContent: {
     flex: 1,
     padding: '20px'
+  
   }
 };
 export default Principal

@@ -52,13 +52,13 @@ function Principal() {
 
 
 <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
- <div className="grid gap-12 mb-12 md:grid-cols-2">
+ <div className="text-lg text-blue-900 uppercase dark:text-blue-900">
     <div>
               <label for="first_name" className="text-blue-800 dark:text-blue-800">NOMBRE CLIENTE   :  </label>
                <label for="first_name" className="text-blue-800">RICARDO MARTINEZ HERNANDEZ</label>
             </div>
  </div>
-
+<br/>
     <table className="w-full text-sm text-left rtl:text-right text-gray-500 dark:text-gray-400">
           <thead className="text-xs text-gray-700 uppercase bg-gray-100 dark:bg-gray-700 dark:text-gray-400">
             <tr>

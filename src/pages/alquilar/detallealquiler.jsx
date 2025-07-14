@@ -42,13 +42,17 @@ function DetalleAlquiler() {
     <div>
       <Header />
       <main style={styles.mainContent}>
-        <div className="grid gap-6 mb-6 md:grid-cols-1">
-
-          <div className="grid gap-12 mb-12 md:grid-cols-2">
-            <section className="bg-white dark:bg-gray-900">
+      <div className=" justify-center items-center h-screen">
+          <div >
+            <section className=" dark:bg-gray-900">
               <div className="py-8 px-4 mx-auto max-w-2xl lg:py-16">
 
                 <form action="#">
+                   <div>
+              <label for="first_name" className="text-blue-800 dark:text-blue-800">DETALLE ALQUILER :  </label>
+             
+            </div>
+            <br/>
                   <div className="grid gap-4 sm:grid-cols-2 sm:gap-6">
                     <div className="sm:col-span-2">
                       <label htmlFor="name" className="text-base font-blackmb-2 font-medium text-blue-800 dark:text-white">NOMBRE CLIENTE </label>

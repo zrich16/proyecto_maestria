@@ -30,15 +30,25 @@ const navigate = useNavigate();
                 icon: "info"
             });
         } else {
-              navigate('/principal'); 
+if(credentials.user === 'rich' && credentials.pass === '2025'){
+ navigate('/principal'); 
+}else{
+ Swal.fire({
+                title: "",
+                text: "Credenciales Incirrerctas",
+                icon: "info"
+            });
+}
+
+             
         }
 
     }
 
     return (
         <>
-            <form id='f_login'>
-                <div className="w-full h-screen flex items-center justify-center  bg-gray-800 ">
+            <form id='f_login' className='login-body'>
+                <div className="w-full h-screen flex items-center justify-center ">
                     <div className="w-[90%] max-w-sm md:max-w-md lg:max-w-md p-5 bg-gray-900 flex-col flex items-center gap-3 rounded-xl shadow-slate-500 shadow-lg">
                         <img src="/logo.png" alt="logo" className="w-12 md:w-14" />
                         <h1 className="text-lg md:text-xl font-semibold text-white ">Video Game </h1>
