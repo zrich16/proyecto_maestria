@@ -27,8 +27,6 @@ function AppRoutes() {
         <Route path="/detalleusuario" element={<Detalleusuario />} />
           <Route path="/listausuario" element={<Listausuario />} />
     </Routes>
-   
-  
   );
 }
 
